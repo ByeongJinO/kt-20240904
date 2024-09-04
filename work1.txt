@@ -1,3 +1,31 @@
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git log
+git log --oneline
+
+git add "file" -> stage
+git commit "message" -> staged files > Repository
+
+마지막 버전은 헤드가 가르키는 곳에 기록된다
+
+체크아웃
+: 과거 커밋으로 돌아간다. 헤드를 바꾼다.
+
+헤드
+: 워킹 디렉토리의 버전이다.
+
+detached HEAD state
+
+git chechout main >>
+
+git checkout "version"
+git reflog
+
+merge branch 'exp'
+
+conflict
+base
+
+checkout은 HEAD를 바꾼다.
+reset은 HEAD가 가리키는 브랜치를 바꾼다.
+reset current branch to this commit 을 누르면 된다. HARD를 일단 써라
